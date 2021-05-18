@@ -3,7 +3,8 @@ import './App.css';
 // import { CounterHook } from './components/CounterHook';
 // import { FormHook } from './components/FormHook';
 // import { ItemHook } from './components/ItemHook';
-import { EffectHook } from './components/EffectHook';
+// import { EffectHook } from './components/EffectHook';
+import { MouseEventEffect } from './components/MouseEventEffect';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
      {/* <CounterHook /> */}
      {/* <FormHook /> */}
      {/* <ItemHook /> */}
-     <EffectHook />
+     {/* <EffectHook /> */}
+     <MouseEventEffect/>
     </div>
   );
 }
